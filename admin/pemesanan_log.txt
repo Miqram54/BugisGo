@@ -1,0 +1,2 @@
+[2025-05-01 19:14:16] [info] Pemesanan berhasil - ID: 39, Wahana: Sabtu - Minggu, Total: 203000
+[2025-05-01 19:24:23] [info] Pemesanan berhasil - ID: 40, Wahana: Senin - Kamiss, Total: 153000

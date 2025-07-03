@@ -1,0 +1,2 @@
+2025-05-01 07:45:40: CURL Error: SSL certificate problem: certificate has expired
+2025-05-01 07:45:46: CURL Error: SSL certificate problem: certificate has expired

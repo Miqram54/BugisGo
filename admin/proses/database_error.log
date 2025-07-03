@@ -1,0 +1,24 @@
+[2025-05-04 05:32:48] Kesalahan Koneksi Database
+Konteks: {
+    "error": "No connection could be made because the target machine actively refused it",
+    "errno": 2002
+}
+IP: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+
+[2025-05-04 17:53:45] Kesalahan Koneksi Database
+Konteks: {
+    "error": "No connection could be made because the target machine actively refused it",
+    "errno": 2002
+}
+IP: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+
+[2025-05-04 17:53:56] Kesalahan Koneksi Database
+Konteks: {
+    "error": "No connection could be made because the target machine actively refused it",
+    "errno": 2002
+}
+IP: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+

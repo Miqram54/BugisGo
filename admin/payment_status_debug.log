@@ -1,0 +1,19 @@
+[2025-05-01 19:40:22] Request Update Status Diterima
+Detail: {
+    "POST": [],
+    "SESSION": {
+        "user_id": 2,
+        "role": "pengunjung"
+    }
+}
+[2025-05-01 19:40:22] Data JSON Diterima
+Detail: {
+    "orderID": "ORDER-1746121190-5627",
+    "status": "selesai pembayaran"
+}
+[2025-05-01 19:40:22] Kesalahan Update Status
+Detail: {
+    "error": "Gagal mempersiapkan query: Unknown column 'terakhirDiubah' in 'field list'",
+    "orderID": "ORDER-1746121190-5627",
+    "status": "selesai pembayaran"
+}

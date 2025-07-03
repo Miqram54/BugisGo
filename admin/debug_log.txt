@@ -1,0 +1,6758 @@
+======= REQUEST 2025-05-01 07:47:32 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 200000
+    [jumlah] => 2
+    [totalHarga] => 400000
+    [adminFee] => 3000
+    [grandTotal] => 403000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746078452-5390
+            [gross_amount] => 403000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 2
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+ERROR: CURL Error: SSL certificate problem: certificate has expired
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(78): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 07:48:26 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 200000
+    [jumlah] => 2
+    [totalHarga] => 400000
+    [adminFee] => 3000
+    [grandTotal] => 403000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746078506-6920
+            [gross_amount] => 403000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 2
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+ERROR: CURL Error: SSL certificate problem: certificate has expired
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(78): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 07:48:33 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 200000
+    [jumlah] => 2
+    [totalHarga] => 400000
+    [adminFee] => 3000
+    [grandTotal] => 403000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746078513-8274
+            [gross_amount] => 403000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 2
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+ERROR: CURL Error: SSL certificate problem: certificate has expired
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(78): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 07:50:45 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 200000
+    [jumlah] => 2
+    [totalHarga] => 400000
+    [adminFee] => 3000
+    [grandTotal] => 403000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746078645-1344
+            [gross_amount] => 403000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 2
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+Token dari Midtrans: 70fca8d8-4a79-4c24-b467-7e83170494f9
+
+======= REQUEST 2025-05-01 07:52:56 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 200000
+    [jumlah] => 2
+    [totalHarga] => 400000
+    [adminFee] => 3000
+    [grandTotal] => 403000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746078776-7753
+            [gross_amount] => 403000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 2
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+Token dari Midtrans: 3aceffc0-fcdd-43c7-99a9-d3f4eee75c8d
+
+======= REQUEST 2025-05-01 07:57:30 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 200000
+    [jumlah] => 2
+    [totalHarga] => 400000
+    [adminFee] => 3000
+    [grandTotal] => 403000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746079050-6033
+            [gross_amount] => 403000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 2
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+Token dari Midtrans: a05ab2ee-7b9f-425a-b2c2-16b8905cf8b7
+
+======= REQUEST 2025-05-01 08:55:20 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-15
+    [harga] => 150000
+    [jumlah] => 2
+    [totalHarga] => 300000
+    [adminFee] => 3000
+    [grandTotal] => 303000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746082520-8864
+            [gross_amount] => 303000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 2
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+ERROR: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(84): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 08:55:27 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-15
+    [harga] => 150000
+    [jumlah] => 2
+    [totalHarga] => 300000
+    [adminFee] => 3000
+    [grandTotal] => 303000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746082527-4830
+            [gross_amount] => 303000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 2
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+ERROR: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(84): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 08:55:42 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-15
+    [harga] => 150000
+    [jumlah] => 2
+    [totalHarga] => 300000
+    [adminFee] => 3000
+    [grandTotal] => 303000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746082542-1255
+            [gross_amount] => 303000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 2
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+ERROR: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(84): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 08:55:51 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-15
+    [harga] => 150000
+    [jumlah] => 2
+    [totalHarga] => 300000
+    [adminFee] => 3000
+    [grandTotal] => 303000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746082551-4945
+            [gross_amount] => 303000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 2
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+ERROR: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(84): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 08:55:56 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-15
+    [harga] => 150000
+    [jumlah] => 2
+    [totalHarga] => 300000
+    [adminFee] => 3000
+    [grandTotal] => 303000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746082556-2356
+            [gross_amount] => 303000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 2
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+ERROR: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(84): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 08:56:55 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 09877
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-15
+    [harga] => 150000
+    [jumlah] => 2
+    [totalHarga] => 300000
+    [adminFee] => 3000
+    [grandTotal] => 303000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746082615-2755
+            [gross_amount] => 303000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 2
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 09877
+        )
+
+)
+
+
+ERROR: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(84): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 09:10:59 =======
+POST Data:
+Array
+(
+    [nama] => nadsdan
+    [phone] => 1
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746083459-5225
+            [gross_amount] => 78000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => nadsdan
+            [phone] => 1
+        )
+
+)
+
+
+Token dari Midtrans: c0905386-d783-4d38-87c1-d07832fc09ea
+
+======= REQUEST 2025-05-01 09:12:57 =======
+POST Data:
+Array
+(
+    [nama] => sdasd
+    [phone] => 1
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746083577-8264
+            [gross_amount] => 78000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => sdasd
+            [phone] => 1
+        )
+
+)
+
+
+Token dari Midtrans: 04d0746a-d8fe-48b5-a935-146bf02bd183
+
+======= REQUEST 2025-05-01 09:15:39 =======
+POST Data:
+Array
+(
+    [nama] => uhuh
+    [phone] => 1
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746083739-9944
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => uhuh
+            [phone] => 1
+        )
+
+)
+
+
+Token dari Midtrans: 93f476b0-b20c-4c17-9d1d-4888ec129098
+
+======= REQUEST 2025-05-01 09:17:44 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => wkw
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+ERROR: Total Harga tidak ditemukan
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 09:18:34 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+ERROR: Total Harga tidak ditemukan
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 09:18:47 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+ERROR: Total Harga tidak ditemukan
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 09:18:52 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+ERROR: Total Harga tidak ditemukan
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 09:19:07 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+ERROR: Total Harga tidak ditemukan
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 09:19:31 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+ERROR: Total Harga tidak ditemukan
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 09:19:44 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746083984-3209
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+Token dari Midtrans: 5436e3f3-4557-4697-ad7b-0b57791e7d95
+
+======= REQUEST 2025-05-01 09:20:16 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+ERROR: Total Harga tidak ditemukan
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 09:20:25 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746084025-1530
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+Token dari Midtrans: 167d131f-07fa-4c84-9789-681387770196
+
+======= REQUEST 2025-05-01 09:23:54 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746084234-2488
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+Token dari Midtrans: 1bb1c65d-30ec-42ca-a755-6b25e48f9a66
+
+======= REQUEST 2025-05-01 09:25:50 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746084350-6555
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+)
+
+
+Token dari Midtrans: 2d9297fd-9749-4557-9d7b-2a8c273ddf12
+
+======= REQUEST 2025-05-01 09:27:52 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 3000
+    [adminFee] => 3000
+    [grandTotal] => 6000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746084472-3180
+            [gross_amount] => 6000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+)
+
+
+Token dari Midtrans: dba736cc-e309-4f7c-9ce5-41a711d17bf0
+
+======= REQUEST 2025-05-01 09:33:26 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746084806-8763
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+Token dari Midtrans: 1f466375-1ed8-4404-82e7-63c1a977b24f
+
+======= REQUEST 2025-05-01 09:35:04 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 
+    [namaWahana] => Nama Wahana Tidak Diketahui
+    [tanggal_kunjungan] => Tanggal Tidak Diisi
+    [harga] => 0
+    [jumlah] => 0
+    [totalHarga] => 0
+    [adminFee] => 3000
+    [grandTotal] => 3000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746084904-1731
+            [gross_amount] => 3000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 
+                    [price] => 0
+                    [quantity] => 0
+                    [name] => Nama Wahana Tidak Diketahui
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+ERROR: Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["item_details Quantity must be greater than or equal to 1"]}
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(84): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+======= REQUEST 2025-05-01 09:36:08 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746084968-5915
+            [gross_amount] => 78000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+Token dari Midtrans: 2f44f040-716f-414a-9ebf-c768593eb7b8
+
+======= REQUEST 2025-05-01 09:44:56 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746085496-3102
+            [gross_amount] => 10000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+Token dari Midtrans: 0d433fc0-a7be-4aac-a176-457eac43949c
+
+======= REQUEST 2025-05-01 09:45:44 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => 726873331
+            [gross_amount] => 10000
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => budi
+            [last_name] => pratama
+            [email] => budi.pra@example.com
+            [phone] => 08111222333
+        )
+
+)
+
+
+Token dari Midtrans: 8eeb9b56-9f50-4514-9463-55a655cc23b9
+
+======= REQUEST 2025-05-01 09:46:08 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746085568-7085
+            [gross_amount] => 10000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+Token dari Midtrans: 8a98e7e1-fcd4-43df-9d2d-dcfb76882157
+
+======= REQUEST 2025-05-01 09:46:36 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 3000
+    [adminFee] => 3000
+    [grandTotal] => 6000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => 2023105111
+            [gross_amount] => 10000
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => budi
+            [last_name] => pratama
+            [email] => budi.pra@example.com
+            [phone] => 08111222333
+        )
+
+)
+
+
+Token dari Midtrans: e8096dc2-8999-4474-9e17-b03c0a4413fb
+
+======= REQUEST 2025-05-01 09:52:18 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746085938-4240
+            [gross_amount] => 10000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+Token dari Midtrans: b7a8789c-9073-445e-8265-97174e9ff736
+
+======= REQUEST 2025-05-01 09:57:10 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-01
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746086230-9486
+            [gross_amount] => 78000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 59a2863c-f58c-4188-a1e3-435915815057
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/59a2863c-f58c-4188-a1e3-435915815057
+)
+
+
+======= REQUEST 2025-05-01 11:11:21 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-21
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746090681-1323
+            [gross_amount] => 78000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+ERROR SNAP: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 156
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+ERROR: Curl Error: Could not resolve host: app.sandbox.midtrans.com
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 125
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 11:11:29 =======
+POST Data:
+Array
+(
+    [nama] => wkkw
+    [phone] => 1910
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-21
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746090689-4003
+            [gross_amount] => 78000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => wkkw
+            [phone] => 1910
+        )
+
+)
+
+
+ERROR SNAP: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 156
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+ERROR: Curl Error: Could not resolve host: app.sandbox.midtrans.com
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 125
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 11:12:58 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 085761057732
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-15
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746090778-8215
+            [gross_amount] => 78000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 09c9ba51-8e52-46f5-9ec4-615ef6740372
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/09c9ba51-8e52-46f5-9ec4-615ef6740372
+)
+
+
+======= REQUEST 2025-05-01 11:36:29 =======
+POST Data:
+Array
+(
+    [nama] => Alya
+    [phone] => 085268374210
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamissss
+    [tanggal_kunjungan] => 2025-05-10
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746092189-2367
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamissss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Alya
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 8527236f-d9f6-40f8-bee9-084202d7bec5
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/8527236f-d9f6-40f8-bee9-084202d7bec5
+)
+
+
+======= REQUEST 2025-05-01 11:42:34 =======
+POST Data:
+Array
+(
+    [nama] => hhshs
+    [phone] => 048466ww
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamissss
+    [tanggal_kunjungan] => 2025-05-17
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746092554-8159
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamissss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => hhshs
+            [phone] => 048466ww
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 52e790cb-96a3-4be3-bb6b-8a41d9df0766
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/52e790cb-96a3-4be3-bb6b-8a41d9df0766
+)
+
+
+======= REQUEST 2025-05-01 11:49:34 =======
+POST Data:
+Array
+(
+    [nama] => dimas
+    [phone] => 094735252
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-03
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746092974-8919
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => dimas
+            [phone] => 094735252
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => d2279f39-2cf4-4d02-a811-5c6b49f33ca9
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/d2279f39-2cf4-4d02-a811-5c6b49f33ca9
+)
+
+
+======= REQUEST 2025-05-01 11:54:05 =======
+POST Data:
+Array
+(
+    [nama] => njkndf
+    [phone] => 1234
+    [id_tiket] => 
+    [namaWahana] => Nama Wahana Tidak Diketahui
+    [tanggal_kunjungan] => Tanggal Tidak Diisi
+    [harga] => 0
+    [jumlah] => 0
+    [totalHarga] => 0
+    [adminFee] => 3000
+    [grandTotal] => 3000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746093245-9289
+            [gross_amount] => 3000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 
+                    [price] => 0
+                    [quantity] => 0
+                    [name] => Nama Wahana Tidak Diketahui
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => njkndf
+            [phone] => 1234
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [error_messages] => Array
+        (
+            [0] => item_details Quantity must be greater than or equal to 1
+        )
+
+)
+
+
+ERROR: HTTP Error: 400 - item_details Quantity must be greater than or equal to 1
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 140
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 11:54:24 =======
+POST Data:
+Array
+(
+    [nama] => IOERJWIO
+    [phone] => 12345
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamis
+    [tanggal_kunjungan] => 2025-05-03
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746093264-9468
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamis
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => IOERJWIO
+            [phone] => 12345
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 97d60aac-fbeb-400d-ac55-052f799f4208
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/97d60aac-fbeb-400d-ac55-052f799f4208
+)
+
+
+======= REQUEST 2025-05-01 12:00:40 =======
+POST Data:
+Array
+(
+    [nama] => 
+    [phone] => 
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-20
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+ERROR: Nama Pemesan tidak ditemukan
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 45
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 12:02:31 =======
+POST Data:
+Array
+(
+    [nama] => 
+    [phone] => 
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-20
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+ERROR: Nama Pemesan tidak ditemukan
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 45
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 12:03:12 =======
+POST Data:
+Array
+(
+    [nama] => 
+    [phone] => 
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-17
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+ERROR: Nama Pemesan tidak ditemukan
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 45
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 12:04:17 =======
+POST Data:
+Array
+(
+    [nama] => 
+    [phone] => 
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-03
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+ERROR: Nama Pemesan tidak ditemukan
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 45
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 12:05:28 =======
+POST Data:
+Array
+(
+    [nama] => Alya
+    [phone] => 09753647
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamis
+    [tanggal_kunjungan] => 2025-05-31
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746093928-1322
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamis
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Alya
+            [phone] => 09753647
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 2a2d7e31-5e34-41f4-86bf-9d09ef453f4c
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/2a2d7e31-5e34-41f4-86bf-9d09ef453f4c
+)
+
+
+======= REQUEST 2025-05-01 12:13:11 =======
+POST Data:
+Array
+(
+    [nama] => Dimas
+    [phone] => 098537482145
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-31
+    [harga] => 500000
+    [jumlah] => 5
+    [totalHarga] => 2500000
+    [adminFee] => 3000
+    [grandTotal] => 2503000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746094391-6029
+            [gross_amount] => 2503000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 500000
+                    [quantity] => 5
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dimas
+            [phone] => 098537482145
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 1be3405e-80e6-4816-becb-b4c0c5fe5d43
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/1be3405e-80e6-4816-becb-b4c0c5fe5d43
+)
+
+
+======= REQUEST 2025-05-01 12:25:23 =======
+POST Data:
+Array
+(
+    [nama] => Dimas
+    [phone] => 098537482145
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-31
+    [harga] => 500000
+    [jumlah] => 5
+    [totalHarga] => 2500000
+    [adminFee] => 3000
+    [grandTotal] => 2503000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746095123-3652
+            [gross_amount] => 2503000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 500000
+                    [quantity] => 5
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dimas
+            [phone] => 098537482145
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => b2cc2da5-b0c3-4360-a1d5-4f2bfdb6baff
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/b2cc2da5-b0c3-4360-a1d5-4f2bfdb6baff
+)
+
+
+======= REQUEST 2025-05-01 12:25:41 =======
+POST Data:
+Array
+(
+    [nama] => Dimas
+    [phone] => 098537482145
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-31
+    [harga] => 500000
+    [jumlah] => 5
+    [totalHarga] => 2500000
+    [adminFee] => 3000
+    [grandTotal] => 2503000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746095141-6026
+            [gross_amount] => 2503000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 500000
+                    [quantity] => 5
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dimas
+            [phone] => 098537482145
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 0032001f-f48c-49b0-aa96-ffdbd553e251
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/0032001f-f48c-49b0-aa96-ffdbd553e251
+)
+
+
+======= REQUEST 2025-05-01 12:29:38 =======
+POST Data:
+Array
+(
+    [nama] => Dimas
+    [phone] => 098537482145
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-31
+    [harga] => 500000
+    [jumlah] => 5
+    [totalHarga] => 2500000
+    [adminFee] => 3000
+    [grandTotal] => 2503000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746095378-3457
+            [gross_amount] => 2503000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 500000
+                    [quantity] => 5
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dimas
+            [phone] => 098537482145
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 8f2da426-fc49-46e7-a01d-40bf59bf9aad
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/8f2da426-fc49-46e7-a01d-40bf59bf9aad
+)
+
+
+======= REQUEST 2025-05-01 12:30:42 =======
+POST Data:
+Array
+(
+    [nama] => Dimas
+    [phone] => 948736355
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-31
+    [harga] => 500000
+    [jumlah] => 5
+    [totalHarga] => 2500000
+    [adminFee] => 3000
+    [grandTotal] => 2503000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746095442-5802
+            [gross_amount] => 2503000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 500000
+                    [quantity] => 5
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dimas
+            [phone] => 948736355
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 99c369c1-48dc-4f6a-9df9-fa2af40211d4
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/99c369c1-48dc-4f6a-9df9-fa2af40211d4
+)
+
+
+======= REQUEST 2025-05-01 12:42:35 =======
+POST Data:
+Array
+(
+    [nama] => 
+    [phone] => 
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-02
+    [harga] => 500000
+    [jumlah] => 5
+    [totalHarga] => 2500000
+    [adminFee] => 3000
+    [grandTotal] => 2503000
+)
+
+
+ERROR: Nama Pemesan tidak ditemukan
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 45
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 12:43:22 =======
+POST Data:
+Array
+(
+    [nama] => Alyaa
+    [phone] => 846458w9w
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-03
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746096202-7262
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Alyaa
+            [phone] => 846458w9w
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => e1cc3c88-94f9-4f16-814d-b75a272ad829
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/e1cc3c88-94f9-4f16-814d-b75a272ad829
+)
+
+
+======= REQUEST 2025-05-01 13:20:19 =======
+POST Data:
+Array
+(
+    [nama] => Izzat
+    [phone] => 0984635273848
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-10
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746098420-6841
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Izzat
+            [phone] => 0984635273848
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => ce01ce93-c887-4819-aef1-2aee4a68b38a
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/ce01ce93-c887-4819-aef1-2aee4a68b38a
+)
+
+
+======= REQUEST 2025-05-01 13:20:44 =======
+POST Data:
+Array
+(
+    [nama] => Izzat
+    [phone] => 097475853295
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-10
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746098444-3064
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Izzat
+            [phone] => 097475853295
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 332049a9-634e-4b7e-88ab-ec778ffc7a77
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/332049a9-634e-4b7e-88ab-ec778ffc7a77
+)
+
+
+======= REQUEST 2025-05-01 13:36:18 =======
+POST Data:
+Array
+(
+    [nama] => Izzat
+    [phone] => 085472839427
+    [id_tiket] => 6
+    [namaWahana] => Tiket Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-17
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746099378-6920
+            [gross_amount] => 78000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Tiket Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Izzat
+            [phone] => 085472839427
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => db635977-7b22-492c-8300-9b4f9f413e81
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/db635977-7b22-492c-8300-9b4f9f413e81
+)
+
+
+======= REQUEST 2025-05-01 14:09:39 =======
+POST Data:
+Array
+(
+    [nama] => Jefri Nichol
+    [phone] => 
+    [pemesananID] => 34
+    [id_tiket] => 8
+    [namaWahana] => Promo Splash School April
+    [tanggal_kunjungan] => 2025-05-24
+    [harga] => 60000
+    [jumlah] => 1
+    [totalHarga] => 60000
+    [adminFee] => 3000
+    [grandTotal] => 63000
+)
+
+
+ERROR: Nomor HP tidak ditemukan
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 49
+Stack trace: #0 {main}
+
+======= REQUEST 2025-05-01 14:10:07 =======
+POST Data:
+Array
+(
+    [nama] => Jefri Nichol
+    [phone] => 0976364728482
+    [pemesananID] => 35
+    [id_tiket] => 8
+    [namaWahana] => Promo Splash School April
+    [tanggal_kunjungan] => 2025-05-19
+    [harga] => 60000
+    [jumlah] => 1
+    [totalHarga] => 60000
+    [adminFee] => 3000
+    [grandTotal] => 63000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746101407-6371
+            [gross_amount] => 63000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 60000
+                    [quantity] => 1
+                    [name] => Promo Splash School April
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Jefri Nichol
+            [phone] => 0976364728482
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => e39bede9-a9c0-45de-8022-2b880fb704a8
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/e39bede9-a9c0-45de-8022-2b880fb704a8
+)
+
+
+======= REQUEST 2025-05-01 14:45:56 =======
+POST Data:
+Array
+(
+    [nama] => Jefri Nichol
+    [phone] => 098674838264
+    [pemesananID] => 36
+    [id_tiket] => 7
+    [namaWahana] => Tiket Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-17
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746103556-4898
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Tiket Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Jefri Nichol
+            [phone] => 098674838264
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 1a40efd4-e327-4feb-80ce-33ef750c8035
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/1a40efd4-e327-4feb-80ce-33ef750c8035
+)
+
+
+======= REQUEST 2025-05-01 17:17:12 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 28
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-24
+    [harga] => 400000
+    [jumlah] => 2
+    [totalHarga] => 800000
+    [adminFee] => 3000
+    [grandTotal] => 803000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746112632-6588
+            [gross_amount] => 803000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 400000
+                    [quantity] => 2
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 862aa853-03e8-41ef-9343-4473d8fbe03d
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/862aa853-03e8-41ef-9343-4473d8fbe03d
+)
+
+
+======= REQUEST 2025-05-01 17:19:25 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 29
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-13
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746112765-7914
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => fd489d4e-b373-473a-8d45-fae447d266e9
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/fd489d4e-b373-473a-8d45-fae447d266e9
+)
+
+
+======= REQUEST 2025-05-01 17:47:42 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 30
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-24
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746114462-8603
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 4efe29ec-27a3-4180-ad35-86c6c05fdcad
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/4efe29ec-27a3-4180-ad35-86c6c05fdcad
+)
+
+
+======= REQUEST 2025-05-01 18:00:10 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 31
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-30
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746115210-2136
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 9f1e761e-290d-4b45-980a-fe51255b4d19
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/9f1e761e-290d-4b45-980a-fe51255b4d19
+)
+
+
+======= REQUEST 2025-05-01 18:00:49 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 32
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-24
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746115249-9889
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 9d908b34-7530-419c-8a6e-270872f37ff9
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/9d908b34-7530-419c-8a6e-270872f37ff9
+)
+
+
+======= REQUEST 2025-05-01 18:20:58 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 33
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-27
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746116458-3732
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 5d148b4c-4ca8-499f-b606-942928a5cada
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/5d148b4c-4ca8-499f-b606-942928a5cada
+)
+
+
+======= REQUEST 2025-05-01 18:24:22 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 34
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-31
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746116662-7934
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 03e51d8a-5786-4ccf-8372-b3f9e4d705ca
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/03e51d8a-5786-4ccf-8372-b3f9e4d705ca
+)
+
+
+======= REQUEST 2025-05-01 18:37:47 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 36
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-22
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746117467-6111
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => f2edba85-d59e-4e81-86ce-70695a2963ef
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/f2edba85-d59e-4e81-86ce-70695a2963ef
+)
+
+
+======= REQUEST 2025-05-01 18:39:31 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 37
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-12
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746117571-4095
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 3a16b207-50c7-4c16-bdbe-fc0c9a7fb1f3
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/3a16b207-50c7-4c16-bdbe-fc0c9a7fb1f3
+)
+
+
+======= REQUEST 2025-05-01 19:00:02 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 38
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-24
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746118802-5227
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 4bb8f005-b372-4c61-82d8-398e6586075b
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/4bb8f005-b372-4c61-82d8-398e6586075b
+)
+
+
+======= REQUEST 2025-05-01 19:25:00 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 41
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-15
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746120300-1072
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 6f8069fc-5210-434d-a13b-b2ca1b025324
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/6f8069fc-5210-434d-a13b-b2ca1b025324
+)
+
+
+======= REQUEST 2025-05-01 19:26:49 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 42
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-05
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746120409-2250
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 2de5118a-a5aa-41a0-90b6-31366d185b79
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/2de5118a-a5aa-41a0-90b6-31366d185b79
+)
+
+
+======= REQUEST 2025-05-01 19:39:50 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 44
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-24
+    [harga] => 800000
+    [jumlah] => 4
+    [totalHarga] => 3200000
+    [adminFee] => 3000
+    [grandTotal] => 3203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746121190-5627
+            [gross_amount] => 3203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 800000
+                    [quantity] => 4
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 216461e6-42d8-48f1-ae1d-9cefab5148a0
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/216461e6-42d8-48f1-ae1d-9cefab5148a0
+)
+
+
+======= REQUEST 2025-05-01 19:41:53 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 45
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-08
+    [harga] => 600000
+    [jumlah] => 3
+    [totalHarga] => 1800000
+    [adminFee] => 3000
+    [grandTotal] => 1803000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746121314-8579
+            [gross_amount] => 1803000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 600000
+                    [quantity] => 3
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 6f5e30f7-b2aa-4774-8b6b-232d8ed3b0b2
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/6f5e30f7-b2aa-4774-8b6b-232d8ed3b0b2
+)
+
+
+======= REQUEST 2025-05-01 19:42:58 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 46
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-30
+    [harga] => 400000
+    [jumlah] => 2
+    [totalHarga] => 800000
+    [adminFee] => 3000
+    [grandTotal] => 803000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746121378-8035
+            [gross_amount] => 803000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 400000
+                    [quantity] => 2
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 8d6274fd-875b-44d2-b938-ded4eec19758
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/8d6274fd-875b-44d2-b938-ded4eec19758
+)
+
+
+======= REQUEST 2025-05-04 05:59:14 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 51
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-07
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746331154-8092
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 2c593fb7-21e6-4b22-96df-de42320a776b
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/2c593fb7-21e6-4b22-96df-de42320a776b
+)
+
+
+======= REQUEST 2025-05-04 06:10:52 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 52
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-07
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746331852-1098
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => 5cf26416-6f5e-4a9a-8287-ed2c30ab9bb4
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/5cf26416-6f5e-4a9a-8287-ed2c30ab9bb4
+)
+
+
+======= REQUEST 2025-05-04 06:11:13 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 53
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-27
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746331873-5925
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => 0ba576c1-37ac-4a53-98a7-f2f9c616fc87
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/0ba576c1-37ac-4a53-98a7-f2f9c616fc87
+)
+
+
+======= REQUEST 2025-05-04 06:13:30 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 57
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-27
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746332010-2763
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => 1ad23ffb-5302-42f2-a7eb-58abc805184c
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/1ad23ffb-5302-42f2-a7eb-58abc805184c
+)
+
+
+======= REQUEST 2025-05-04 06:14:15 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085467234563
+    [pemesananID] => 58
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-22
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746332055-5219
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085467234563
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => 0a7972f9-cb97-452c-9bb1-9bf2a1f72f63
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/0a7972f9-cb97-452c-9bb1-9bf2a1f72f63
+)
+
+
+======= REQUEST 2025-05-04 06:19:42 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085467234563
+    [pemesananID] => 59
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-22
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746332382-9751
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085467234563
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => c61d024a-1d57-45e6-9526-d27082cb3a5a
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/c61d024a-1d57-45e6-9526-d27082cb3a5a
+)
+
+
+======= REQUEST 2025-05-04 06:20:41 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 60
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-22
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [pemesananID] => ORDER-1746332441-5860
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [error_messages] => Array
+        (
+            [0] => transaction_details.order_id is required
+        )
+
+)
+
+
+ERROR: HTTP Error (400): transaction_details.order_id is required
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 129
+Trace:
+#0 {main}
+
+======= REQUEST 2025-05-04 06:24:37 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 61
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [orderID] => ORDER-1746332677-1604
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [error_messages] => Array
+        (
+            [0] => transaction_details.order_id is required
+        )
+
+)
+
+
+ERROR: HTTP Error (400): transaction_details.order_id is required
+File: C:\xampp\htdocs\BugisGo\admin\placeorder.php Line: 129
+Trace:
+#0 {main}
+
+======= REQUEST 2025-05-04 06:29:24 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 62
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746332964-8658
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => 2b3367ed-32d1-475e-98c1-123b8fefe722
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/2b3367ed-32d1-475e-98c1-123b8fefe722
+)
+
+
+======= REQUEST 2025-05-04 06:29:50 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 63
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746332990-4501
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => fde8db48-c373-406b-93f7-29343436f132
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/fde8db48-c373-406b-93f7-29343436f132
+)
+
+
+======= REQUEST 2025-05-04 06:31:32 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 65
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746333092-8616
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => 0e7bd804-3f74-47b0-8cd1-ca9a7952f03c
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/0e7bd804-3f74-47b0-8cd1-ca9a7952f03c
+)
+
+
+======= REQUEST 2025-05-04 06:33:28 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 66
+    [id_tiket] => <br />
+<b>Warning</b>:  Undefined variable $idTiket in <b>C:\xampp\htdocs\BugisGo\admin\checkout.php</b> on line <b>195</b><br />
+
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746333208-8257
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => c3662a44-7f58-4a4b-890c-f93ac2a57ed1
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/c3662a44-7f58-4a4b-890c-f93ac2a57ed1
+)
+
+
+======= REQUEST 2025-05-04 06:33:33 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 66
+    [id_tiket] => <br />
+<b>Warning</b>:  Undefined variable $idTiket in <b>C:\xampp\htdocs\BugisGo\admin\checkout.php</b> on line <b>195</b><br />
+
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746333213-9176
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => dec5eddc-4a92-42e1-9f89-04a9d44dc4e5
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/dec5eddc-4a92-42e1-9f89-04a9d44dc4e5
+)
+
+
+======= REQUEST 2025-05-04 06:33:50 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 67
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746333230-3967
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => ab5519cd-cf87-453b-8088-d2b4e583af23
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/ab5519cd-cf87-453b-8088-d2b4e583af23
+)
+
+
+======= REQUEST 2025-05-04 06:34:16 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 68
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746333256-5442
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR Snap: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+Fallback SNAP Response:
+Array
+(
+    [token] => 7121fb9d-e832-4eed-9133-376a8793f1d2
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/7121fb9d-e832-4eed-9133-376a8793f1d2
+)
+
+
+======= REQUEST 2025-05-04 06:37:21 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 69
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746333441-2422
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 29dd530d-47e7-444f-9cbb-574ea95b5e32
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/29dd530d-47e7-444f-9cbb-574ea95b5e32
+)
+
+
+======= REQUEST 2025-05-04 06:37:56 =======
+POST Data:
+Array
+(
+    [nama] => Muhammad Iqram
+    [phone] => 085761057732
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746333476-3949
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Muhammad Iqram
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 0c29e561-377d-4dfe-ab18-0f4e86520788
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/0c29e561-377d-4dfe-ab18-0f4e86520788
+)
+
+
+======= REQUEST 2025-05-04 06:48:15 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085467234563
+    [pemesananID] => 70
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746334095-3794
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085467234563
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 50d7163f-be03-44a9-b864-667300c4530b
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/50d7163f-be03-44a9-b864-667300c4530b
+)
+
+
+======= REQUEST 2025-05-04 06:52:17 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 71
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746334337-8890
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => c1afbca4-2184-40d9-a3ac-e54950c0cce1
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/c1afbca4-2184-40d9-a3ac-e54950c0cce1
+)
+
+
+======= REQUEST 2025-05-04 06:59:25 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 72
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-22
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746334765-6451
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => fe2489a0-411b-482b-84ba-382b9380d993
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/fe2489a0-411b-482b-84ba-382b9380d993
+)
+
+
+======= REQUEST 2025-05-04 07:15:12 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085467234563
+    [pemesananID] => 74
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-17
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746335712-6825
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085467234563
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => a9149251-af30-4508-915c-6d2bc921dc89
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/a9149251-af30-4508-915c-6d2bc921dc89
+)
+
+
+======= REQUEST 2025-05-04 07:19:19 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 75
+    [id_tiket] => 8
+    [namaWahana] => Gazebo
+    [tanggal_kunjungan] => 2025-05-15
+    [harga] => 200000
+    [jumlah] => 1
+    [totalHarga] => 200000
+    [adminFee] => 3000
+    [grandTotal] => 203000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746335959-4101
+            [gross_amount] => 203000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 200000
+                    [quantity] => 1
+                    [name] => Gazebo
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 620ae09f-5684-47cc-9f8a-3dfd01641600
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/620ae09f-5684-47cc-9f8a-3dfd01641600
+)
+
+
+======= REQUEST 2025-05-04 07:21:38 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085761057732
+    [pemesananID] => 76
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 150000
+    [jumlah] => 1
+    [totalHarga] => 150000
+    [adminFee] => 3000
+    [grandTotal] => 153000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746336098-1344
+            [gross_amount] => 153000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 150000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085761057732
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 69a0c245-a31e-4d16-83e8-5b73674a2611
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/69a0c245-a31e-4d16-83e8-5b73674a2611
+)
+
+
+======= REQUEST 2025-05-06 14:13:02 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 84
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-17
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746533582-5647
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 1c2f9023-0efb-4644-acd5-c5e65cf3ef49
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/1c2f9023-0efb-4644-acd5-c5e65cf3ef49
+)
+
+
+======= REQUEST 2025-05-06 15:01:46 =======
+POST Data:
+Array
+(
+    [nama] => iqramm
+    [phone] => 085268374210
+    [pemesananID] => 85
+    [id_tiket] => 8
+    [namaWahana] => SPLASH SCHOOL
+    [tanggal_kunjungan] => 2025-05-24
+    [harga] => 60000
+    [jumlah] => 1
+    [totalHarga] => 60000
+    [adminFee] => 3000
+    [grandTotal] => 63000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746536506-7541
+            [gross_amount] => 63000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [price] => 60000
+                    [quantity] => 1
+                    [name] => SPLASH SCHOOL
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => iqramm
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 8b8654e3-638a-4d37-8033-a16904ffbf32
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/8b8654e3-638a-4d37-8033-a16904ffbf32
+)
+
+
+======= REQUEST 2025-05-06 15:03:33 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 86
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-24
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746536613-5103
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => e2340a0f-b4ed-4e30-a8b4-a333d37157e6
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/e2340a0f-b4ed-4e30-a8b4-a333d37157e6
+)
+
+
+======= REQUEST 2025-05-06 15:05:56 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 87
+    [id_tiket] => 6
+    [namaWahana] => Senin - Kamiss
+    [tanggal_kunjungan] => 2025-05-24
+    [harga] => 75000
+    [jumlah] => 1
+    [totalHarga] => 75000
+    [adminFee] => 3000
+    [grandTotal] => 78000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746536756-3834
+            [gross_amount] => 78000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [price] => 75000
+                    [quantity] => 1
+                    [name] => Senin - Kamiss
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => ef4667e4-bc83-4688-9481-f119058ee564
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/ef4667e4-bc83-4688-9481-f119058ee564
+)
+
+
+======= REQUEST 2025-05-07 16:10:41 =======
+POST Data:
+Array
+(
+    [nama] => alyaa
+    [phone] => 085268374210
+    [pemesananID] => 88
+    [id_tiket] => 7
+    [namaWahana] => Sabtu - Minggu
+    [tanggal_kunjungan] => 2025-05-16
+    [harga] => 100000
+    [jumlah] => 1
+    [totalHarga] => 100000
+    [adminFee] => 3000
+    [grandTotal] => 103000
+)
+
+
+Data untuk Midtrans:
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => ORDER-1746627041-5338
+            [gross_amount] => 103000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [price] => 100000
+                    [quantity] => 1
+                    [name] => Sabtu - Minggu
+                )
+
+            [1] => Array
+                (
+                    [id] => ADMIN-FEE
+                    [price] => 3000
+                    [quantity] => 1
+                    [name] => Biaya Admin
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => alyaa
+            [phone] => 085268374210
+        )
+
+)
+
+
+ERROR SNAP: Midtrans API is returning API error. HTTP status code: 400 API response: <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+File: C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php Line: 167
+Stack trace: #0 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-3...', Array, 'POST')
+#1 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.san...', 'SB-Mid-server-3...', Array)
+#2 C:\xampp\htdocs\BugisGo\admin\midtrans-php-master\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction(Array)
+#3 C:\xampp\htdocs\BugisGo\admin\placeorder.php(91): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+
+Alternative SNAP Response: Array
+(
+    [token] => 2a1959e2-f779-46c4-b6ef-08b38e56bc9c
+    [redirect_url] => https://app.sandbox.midtrans.com/snap/v4/redirection/2a1959e2-f779-46c4-b6ef-08b38e56bc9c
+)
+
+

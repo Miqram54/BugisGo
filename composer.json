@@ -1,0 +1,14 @@
+{
+    "name": "bugisgo/ticketing",
+    "description": "Sistem Pemesanan Tiket BugisGo",
+    "require": {
+        "midtrans/midtrans-php": "^2.6",
+        "endroid/qr-code": "^4.0",
+        "tecnickcom/tcpdf": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BugisGo\\": "src/"
+        }
+    }
+}

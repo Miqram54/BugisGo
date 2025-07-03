@@ -1,0 +1,32 @@
+{
+    "time": "2025-05-01 07:45:40",
+    "post": {
+        "nama": "Muhammad Iqram",
+        "phone": "09877",
+        "id_tiket": "7",
+        "namaWahana": "Tiket Sabtu - Minggu",
+        "tanggal_kunjungan": "2025-05-16",
+        "harga": "200000",
+        "jumlah": "2",
+        "totalHarga": "400000",
+        "adminFee": "3000",
+        "grandTotal": "403000"
+    }
+}
+
+{
+    "time": "2025-05-01 07:45:46",
+    "post": {
+        "nama": "Muhammad Iqram",
+        "phone": "09877",
+        "id_tiket": "7",
+        "namaWahana": "Tiket Sabtu - Minggu",
+        "tanggal_kunjungan": "2025-05-16",
+        "harga": "200000",
+        "jumlah": "2",
+        "totalHarga": "400000",
+        "adminFee": "3000",
+        "grandTotal": "403000"
+    }
+}
+

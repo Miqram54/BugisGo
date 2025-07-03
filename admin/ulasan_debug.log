@@ -1,0 +1,21 @@
+[2025-05-07 14:04:03] User ID: 2, Role: pengunjung
+[2025-05-07 14:04:11] User ID: 2, Role: pengunjung
+[2025-05-07 14:04:11] Data POST: Array
+(
+    [wahanaID] => Pinisi Slide
+    [rating] => 3
+    [komentar] => bgs
+)
+
+[2025-05-07 14:04:11] Ulasan berhasil ditambahkan. ID: 18, Wahana: Pinisi Slide, Rating: 3
+[2025-05-07 14:04:11] User ID: 2, Role: pengunjung
+[2025-05-07 14:04:25] User ID: 2, Role: pengunjung
+[2025-05-07 14:04:25] Data POST: Array
+(
+    [wahanaID] => Roller Coaster
+    [rating] => 2
+    [komentar] => y
+)
+
+[2025-05-07 14:04:25] Ulasan berhasil ditambahkan. ID: 19, Wahana: Roller Coaster, Rating: 2
+[2025-05-07 14:04:25] User ID: 2, Role: pengunjung
